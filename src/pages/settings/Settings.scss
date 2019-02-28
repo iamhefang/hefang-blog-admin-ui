@@ -1,0 +1,19 @@
+.container {
+  box-sizing: border-box;
+  padding: 1rem 1rem 3rem;
+}
+
+.btn-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.not-empty {
+  &:after {
+    content: '*';
+    color: red;
+    padding-left: .4rem;
+  }
+}

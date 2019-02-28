@@ -1,0 +1,13 @@
+.hui-textarea {
+  position: relative;
+  textarea {
+    padding-bottom: 1rem;
+    resize: none;
+  }
+  div {
+    right: 1.5rem;
+    bottom: .5rem;
+    position: absolute;
+    text-align: right;
+  }
+}

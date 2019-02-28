@@ -1,0 +1,17 @@
+body {
+  overflow: hidden;
+}
+
+.editor {
+  height: 100%;
+  width: 100%;
+  font: {
+    family: Consolas, 'Microsoft YaHei', 'Liberation Mono', Menlo, Courier, monospace;
+    size: 1rem;
+  }
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}

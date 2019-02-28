@@ -1,0 +1,25 @@
+.comment {
+  &-list-container {
+    margin-bottom: 1rem;
+  }
+  &-item {
+    padding: .5rem 0;
+    border-top: 3px solid #dedede;
+  }
+  &-content {
+    color: #191919;
+    font-size: 1rem;
+  }
+}
+
+.form-group {
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 38rem) {
+  .hui-pager-item {
+    &:first-child, &:last-child {
+      display: none;
+    }
+  }
+}

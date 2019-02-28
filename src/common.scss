@@ -1,0 +1,89 @@
+.container {
+  box-sizing: border-box;
+  padding: 1rem 1rem 3rem;
+}
+
+.list-page {
+  height: 100%;
+}
+
+.list-actions {
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+.hui-table-body {
+  flex: 1;
+}
+
+.search-container {
+  display: inline-block;
+  position: relative;
+  .hui-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: .6rem;
+  }
+}
+
+.image-uploader {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 10rem;
+  background: gray no-repeat center {
+    size: contain;
+  }
+
+  &:after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.618);
+    content: '点击上传图片';
+    padding: .5rem;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+.pager-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  padding: .5rem 1rem;
+  border-top: thin solid gainsboro;
+}
+
+.brand {
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.tags-container {
+  .hui-btn {
+    display: inline-block;
+    padding: .3rem;
+  }
+  input {
+    width: 4rem;
+  }
+  button {
+    padding-right: 0;
+    cursor: pointer;
+  }
+}
